@@ -1,0 +1,33 @@
+#imgAboutDesktop {
+    float: right;
+    padding-left: 2em;
+    max-width: 40rem;
+    height: auto;
+}
+
+#imgAboutMobile {
+    display: none;
+}
+
+div {
+    width: 100%;
+    align-self: center;
+}
+
+div::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    #imgAboutMobile {
+        display: block;
+        margin-bottom: 1rem;
+        float: none;
+    }
+
+    #imgAboutDesktop {
+        display: none;
+    }
+}

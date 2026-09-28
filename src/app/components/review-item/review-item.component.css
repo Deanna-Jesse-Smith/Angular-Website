@@ -1,0 +1,30 @@
+.artReview {
+    font-size: 1rem;
+    flex: 1 20%;
+    border: thin solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 30vw;
+    height: 13vh;
+
+    padding: 0.2em 1em 1em 1em;
+    margin: 1em;
+}
+
+.reviewBody {
+    font-style: italic;
+}
+
+.reviewClient {
+    display: inline;
+    color:cornflowerblue;
+}
+
+@media (max-width: 700px) {
+    .artReview {
+        flex-direction: column;
+        flex: 1 70%;
+        width: 60vw;
+        height: 30vh;
+    }
+}

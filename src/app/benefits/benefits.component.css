@@ -1,0 +1,35 @@
+#secBenefits {
+    display: flex;
+    flex-wrap: wrap;
+    /* font-size: large; */
+    font-size: 1rem;
+}
+
+.artBenefits {
+    flex: 1 30%;
+    border-radius: 10px;
+    border: thin solid blue;
+    padding: 1em 3em 2em 3em;
+    margin: 1rem;
+}
+
+dt {
+    /* font-size: large; */
+    font-size: 1rem;
+    /* font-weight: bold; */
+}
+
+dd {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+img {
+    float: left;
+}
+
+/* li::before {
+    content: url('/images/benefits-tick.png');
+    height: 5px;
+    width: 5px;
+} */

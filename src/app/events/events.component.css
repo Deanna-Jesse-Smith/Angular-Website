@@ -1,0 +1,11 @@
+.secEvents {
+    display: flex;
+    flex-wrap: wrap;
+    /* font-size: large; */
+}
+
+/* @media(max-width: 700px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+} */

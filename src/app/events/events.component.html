@@ -1,0 +1,13 @@
+<h2>
+    Check out the events that are coming up
+</h2>
+
+<section class="secEvents">
+    @if(!eventsItems().length) {
+        <p>There's nothing planned for the moment, but come back soon so you don't miss out!</p>
+    }
+
+    @for (event of eventsItems(); track event.eventId) {
+    <app-events-item [events]="event" />
+    }
+</section>

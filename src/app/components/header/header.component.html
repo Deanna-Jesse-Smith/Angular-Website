@@ -1,0 +1,114 @@
+<header>
+    <h1>Town and About</h1>
+
+    <!-- <button class="menu-mobile" type="button" matButton="elevated" (click)="drawer.toggle()">button</button> -->
+    <!-- <button class="menu-mobile" type="button" matButton (click)="sidenav.toggle()">button</button> -->
+
+    <!-- <div class="menu-mobile">
+        <input type="checkbox" id="chbMenu" >
+        <div class="menu-content">
+            <span class="menu" routerLink="/">
+                Welcome
+            </span>
+    
+            <span class="menu" routerLink="/Reviews">
+                Reviews
+            </span>
+    
+            <span class="menu" routerLink="/Services">
+                Services
+            </span>
+    
+            <span class="menu" routerLink="/Benefits">
+                Benefits
+            </span>
+    
+            <span class="menu" routerLink="/Contact">
+                Contact
+            </span>
+    
+            <span class="menu" routerLink="/Events">
+                Upcoming Events
+            </span>
+        </div>
+    </div> -->
+
+    <button class="btnMenu" (click)="menuToggle()">
+        <span class="burger"></span>
+        <span class="burger"></span>
+        <span class="burger"></span>
+    </button>
+
+    <nav class="menu-mobile" [class.open]="isOpen">
+        <ul>
+            <li routerLink="/" (click)="menuToggle()">Home</li>
+            <li routerLink="/About" (click)="menuToggle()">About</li>
+            <li routerLink="/Reviews" (click)="menuToggle()">Reviews</li>
+            <li routerLink="/Services" (click)="menuToggle()">Services</li>
+            <li routerLink="/Benefits" (click)="menuToggle()">Benefits</li>
+            <li routerLink="/Contact" (click)="menuToggle()">Contact</li>
+            <li routerLink="/Events" (click)="menuToggle()">Events</li>
+        </ul>
+    </nav>
+
+    <img src="/images/town-and-about-icon.png" alt="Icon of Rachelle and several clients happily riding in her car.">
+    <!-- 
+    <mat-sidenav-container class="sidenav">
+        <mat-sidenav #sidenav mode="side">
+            content
+        </mat-sidenav>
+    </mat-sidenav-container> -->
+
+    <!-- <mat-drawer-container class="example-container" [hasBackdrop]="hasBackdrop.value">
+  <mat-drawer #drawer [mode]="mode.value">I'm a drawer</mat-drawer>
+  <mat-drawer-content>
+    <mat-form-field>
+      <mat-label>Sidenav mode</mat-label>
+      <mat-select #mode value="side">
+        <mat-option value="side">Side</mat-option>
+        <mat-option value="over">Over</mat-option>
+        <mat-option value="push">Push</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Has backdrop</mat-label>
+      <mat-select #hasBackdrop>
+        <mat-option>Unset</mat-option>
+        <mat-option [value]="true">True</mat-option>
+        <mat-option [value]="false">False</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button matButton="elevated" (click)="drawer.toggle()">Toggle drawer</button>
+  </mat-drawer-content>
+</mat-drawer-container>
+</header> -->
+
+    <nav class="menu-default">
+        <span class="menu" routerLink="/" routerLinkActive="active-menu"  [routerLinkActiveOptions]="{exact: true}">
+            Welcome
+        </span>
+
+        <span class="menu" routerLink="/About" routerLinkActive="active-menu">
+            About
+        </span>
+
+        <span class="menu" routerLink="/Reviews" routerLinkActive="active-menu">
+            Reviews
+        </span>
+
+        <span class="menu" routerLink="/Services" routerLinkActive="active-menu">
+            Services
+        </span>
+
+        <span class="menu" routerLink="/Benefits" routerLinkActive="active-menu">
+            Benefits
+        </span>
+
+        <span class="menu" routerLink="/Contact" routerLinkActive="active-menu">
+            Contact
+        </span>
+
+        <span class="menu" routerLink="/Events" routerLinkActive="active-menu">
+            Upcoming Events
+        </span>
+    </nav>

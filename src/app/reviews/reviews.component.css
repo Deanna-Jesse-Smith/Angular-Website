@@ -1,0 +1,8 @@
+.secReviews {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ng-invalid {
+    border: 3px solid red;
+}

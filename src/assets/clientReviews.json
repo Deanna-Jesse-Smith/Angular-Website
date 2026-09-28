@@ -1,0 +1,17 @@
+[
+    {
+      "reviewId": 0,
+      "reviewContent": "As someone living far from my mother in Knysna, Town and About gives me such peace of mind. I know she's safe, well-cared for, and even getting some much-needed social interaction. Their service is truly invaluable.",
+      "reviewClient": "David Miller (Son of Client), Johannesburg"
+    },
+    {
+      "reviewId": 1,
+      "reviewContent": "Town and About has been a true blessing! My driver is always punctual, friendly, and goes the extra mile. I love our chats on the way to my appointments. It's made a huge difference to my independence.",
+      "reviewClient": "Mrs. Elanor Vance"
+    },
+    {
+        "reviewId": 2,
+        "reviewContent": "This is a temporary review to help test how the site will look with multiple reviews.",
+        "reviewClient": "Deanna Smith"
+    }
+]

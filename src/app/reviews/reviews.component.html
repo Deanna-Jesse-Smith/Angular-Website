@@ -1,0 +1,22 @@
+<h2>What our clients say about us</h2>
+
+<section class="secReviews">
+    @for (review of reviewsItems(); track review.reviewId) {
+        <app-review-item [reviews]="review" />
+    }
+</section>
+
+<form [formGroup]="reviewForm" (ngSubmit)="submit()">
+    <label>Name:</label>
+    <br>
+    <input id="txt-name" type="text" formControlName="name">
+
+    <br><br>
+
+    <label>Review:</label>
+    <br>
+    <input type="text" formControlName="content">
+
+    <br><br>
+    <button type="submit" [disabled]="!reviewForm.valid">Submit review</button>
+</form>

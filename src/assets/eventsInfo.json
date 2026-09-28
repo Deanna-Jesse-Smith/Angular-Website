@@ -1,0 +1,23 @@
+[
+    {
+      "eventId": 0,
+      "month": "March",
+      "day": 17,
+      "title": "Thursday Pasta Evening",
+      "descr": "Join us for good company, pasta, and tea."
+    },
+    {
+      "eventId": 1,
+      "month": "March",
+      "day": 21,
+      "title": "Scenic Drive",
+      "descr": "A relaxed group outing through the Garden Route."
+    },
+    {
+      "eventId": 2,
+      "month": "March",
+      "day": 23,
+      "title": "Test Event Name",
+      "descr": "A temporary event description to see how the structure looks when a longer description is used."
+    }
+  ]

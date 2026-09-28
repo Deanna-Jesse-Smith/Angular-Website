@@ -1,0 +1,17 @@
+.artContact {
+    justify-content: start;
+}
+
+.imgContactIcon {
+    height: auto;
+    width: 1rem;
+}
+
+#imgContact {
+    height: auto;
+    width: 100%;
+}
+
+p {
+    display: inline;
+}
